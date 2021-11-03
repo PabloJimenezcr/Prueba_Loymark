@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/fa2ce6a4c8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <title>Wizar</title>
+</head>
+
+<body>
+
+    <div class="contentLoader">
+        <div class="loading">
+            <p>Cargando...</p>
+            <span></span>
+        </div>
+    </div>
+
+
+
+
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navigation-wrap">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Wizar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"> <a class="nav-link active" href="#ini">Inicio</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#nos">Nosotros</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#inf">Información</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#gal">Galería</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#est">Estadística</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#con">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+    <section class="pb-5">
+        <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 1" aria-current="true"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="1000">
+                    <div class="overlayImage bannerOne"></div>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>App de lealtad</h1>
+                            <p>Les compartimos estadísticas de visita.</p>
+                            <a class="btn btn-lg" href="#"> Entrar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-interval="1000">
+                    <div class="overlayImage bannerTwo"></div>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Blog de lealtad</h1>
+                            <p>Participe con nosotros en promociones innovadoras.</p>
+                            <a class="btn btn-lg" href="#"> Entrar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-interval="1000">
+                    <div class="overlayImage bannerThree"></div>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Web de lealtad</h1>
+                            <p>Conozca la razón de ser de nuestra app.</p>
+                            <a class="btn btn-lg" href="#"> Entrar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+
+    <section class="container-fluid pt-3">
+        <div class="container text-center">
+            <h2 class="pb-5 fw-bold">Imágenes</h2>
+            <div class="row">
+                <div class="col-md-4 pb-4">
+                    <img src="img/imgOne.jpg" class="img-fluid cursor shadow-lg img-thumbnail" alt="imagen uno">
+                </div>
+
+                <div class="col-md-4 pb-4">
+                    <img src="img/imgTwo.jpg" class="img-fluid cursor shadow-lg img-thumbnail" alt="imagen dos">
+                </div>
+
+
+                <div class="col-md-4 pb-4">
+                    <img src="img/imgThree.jpg" class="img-fluid cursor shadow-lg img-thumbnail" alt="imagen tres">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer class="container-fluid mt-5">
+        <div class="container pt-5">
+            <div class="row mt-3">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold pb-3">Wizar</h6>
+                    <p>
+                        La app de lealtad, le permite acumular puntos de una manera fácil.
+                    </p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold pb-3">Redes Sociales</h6>
+                    <p>
+                        <a href="https://www.facebook.com/" target="blank" class="text-reset">Facebook</a>
+                    </p>
+                    <p>
+                        <a href="https://www.instagram.com/" target="blank" class="text-reset">Instagram</a>
+                    </p>
+                    <p>
+                        <a href="https://mobile.twitter.com/" target="blank" class="text-reset">Twitter</a>
+                    </p>
+                </div>
+
+
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <h6 class="text-uppercase fw-bold pb-3">Contacto</h6>
+                    <p><i class="fas fa-home me-3"></i>Santa Ana, Costa Rica</p>
+                    <p><i class="fas fa-envelope me-3"></i>info@wizar.com</p>
+                    <p><i class="fas fa-phone-alt me-3"></i>2215-1486</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Copyright Wizar-Lealtad
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
